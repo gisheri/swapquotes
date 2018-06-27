@@ -1,0 +1,19 @@
+
+{
+  "name": "swapQuotes",
+  "main": "./lib/swapquotes",
+  "version": "0.0.0",
+  "description": "This package swaps single quotes to double, and double quotes to single in any selection",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "swapquotes:swap"
+  },
+  "repository": "https://github.com/atom/swapquotes",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

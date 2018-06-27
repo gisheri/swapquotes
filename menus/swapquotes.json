@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Swap Quotes",
+        "command": "swapquotes:swap"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "swapquotes",
+          "submenu": [
+            {
+              "label": "Swap Quotes",
+              "command": "swapquotes:swap"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
